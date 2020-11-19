@@ -75,6 +75,7 @@
     justify-content: center;
 } */
 
+/* Sales slider */
 .sales img{
     cursor: pointer;
 }
@@ -98,7 +99,6 @@
     opacity: .6;
     font-size: .85em;
 }
-
 /* Information */
 .information{
     background-color: white;
@@ -134,7 +134,7 @@ footer{
 
 .Footer > div{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     font-size: .8em;
 }
