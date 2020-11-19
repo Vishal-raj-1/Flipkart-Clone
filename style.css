@@ -1,0 +1,161 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+/* Header Section (Blue section) */
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Logo */
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo a{
+    color: white;
+    font-size: .7em;
+}
+
+.logo span{
+    color: yellow;
+}
+
+/* Search Bar */
+.search{
+    border-radius: 0%;
+    font-size: .8em;
+    border: 0;
+    outline: 0 none;
+    width: calc(100% - 540px);
+    min-width: 250px;
+    margin: 0 auto 0 12px;
+    align-items: center;
+}
+
+.search-item {
+    margin-top: -1px;
+}
+
+.search-item h6{
+    color: rgb(101, 101, 104);
+    font-size: .8em;
+}
+
+.search-item  a{
+    font-size: .9em;
+    color: rgb(90, 90, 92);
+}
+
+/* login*/ 
+.login{
+    border-radius: 0;
+    border: none;
+}
+
+.login-list a{
+    font-size: .8em;
+}
+
+/* More Button */
+.more-list{
+    font-size: .8em;
+}
+
+/*******************************************         Navbar         ***********************************/
+/* .Navbar{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    justify-content: center;
+} */
+
+.sales img{
+    cursor: pointer;
+}
+
+.sales a{
+    text-decoration: none;
+}
+
+.sales-item h6{
+    color: black;
+    font-size: .9em;
+}
+
+.sales-item div{
+    color: #388e3c;
+    font-size: .95em;
+}
+
+.sales-item p{
+    color: #212121;
+    opacity: .6;
+    font-size: .85em;
+}
+
+/* Information */
+.information{
+    background-color: white;
+    color: #878787;
+    margin: 2% 0%;
+}
+
+.information h1{
+    font-size: 1.5em;
+}
+
+.information h2{
+    font-size: 1.2em;
+}
+
+.info{
+    font-size: .8em;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer{
+    background-color: #172337;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+}
+
+.Footer h6{
+    color: #878787;
+}
+
+.Footer > div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    font-size: .8em;
+}
+
+.Footer a{
+    color: white;
+}
+
+.Footer p{
+    margin: 0;
+}
+
+.Vertical{
+    height: 10em;
+    border-left: 1px solid #878799;
+}
+
+footer i{
+    color: gold;
+}
+
+footer span{
+    font-size: .8em;
+}
