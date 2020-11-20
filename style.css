@@ -9,13 +9,14 @@
 /* Header Section (Blue section) */
 .Header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* Logo */
 .logo{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .logo a{
@@ -37,6 +38,7 @@
     min-width: 250px;
     margin: 0 auto 0 12px;
     align-items: center;
+    color: rgb(157, 154, 154);
 }
 
 .search-item {
