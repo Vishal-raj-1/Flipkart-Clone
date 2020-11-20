@@ -76,29 +76,37 @@
 } */
 
 /* Sales slider */
-.sales img{
+.sales{
     cursor: pointer;
+    height: 15em;
+    padding: 0em 1em;
+    margin: .1em .2em;
+    width: 13em;
+    box-sizing: border-box;
+}
+
+.sales img{
+    height: 60%;
 }
 
 .sales a{
     text-decoration: none;
-}
-
-.sales-item h6{
-    color: black;
-    font-size: .9em;
-}
-
-.sales-item div{
     color: #388e3c;
     font-size: .95em;
 }
 
-.sales-item p{
+.sales h6{
+    color: black;
+    font-size: .9em;
+    margin-bottom: 0;
+}
+
+.sales p{
     color: #212121;
     opacity: .6;
     font-size: .85em;
 }
+
 /* Information */
 .information{
     background-color: white;
