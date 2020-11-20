@@ -16,52 +16,50 @@
 
 <body>
     <!-- Header section -->
-    <div class="container-fluid bg-primary p-2 Header">
-        <div class="container-fluid d-flex m-0">
+    <div class="container-fluid bg-primary">
+        <div class="row py-2 d-flex Header">
             <!-- Logo -->
-            <div class="logo ml-5">
-                <a href="#">
-                    <img width="75" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
-                        alt="Flipkart" title="Flipkart">
-                </a>
-                <a href="#">Explore <span>Plus</span>
-                    <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png">
-                </a>
+            <div class="col offset-md-1">
+                <div class="logo">
+                    <a href="#">
+                        <img width="75" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                            alt="Flipkart" title="Flipkart">
+                    </a>
+                    <a href="#">Explore <span>Plus</span>
+                        <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png">
+                    </a>
+                </div>
             </div>
 
-            <!-- Search Bar -->
-            <div class="col-5">
-                <div class="container d-flex dropdown bg-white">
-                    <input class="form-control search text-secondary dropdown-toggle" type="search"
-                        placeholder="Search for products, brands and more" aria-label="Search" id="navbarDropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-search mt-2 ml-1 text-primary"></i>
-                    <div class="dropdown-menu col-11 search-item" aria-labelledby="navbarDropdown">
-                        <h6 class="ml-4">Discover More</h6>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item my-2" href=""><i
-                                class="fa fa-search text-secondary mr-3"></i>mobiles</a>
-                        <a class="dropdown-item my-2" href=""><i
-                                class="fa fa-search text-secondary mr-3"></i>t-shirts</a>
-                        <a class="dropdown-item my-2" href=""><i class="fa fa-search text-secondary mr-3"></i>shoes</a>
-                        <a class="dropdown-item my-2" href=""><i class="fa fa-search text-secondary mr-3"></i>laptop</a>
-                        <a class="dropdown-item my-2" href=""><i class="fa fa-search text-secondary mr-3"></i>tv</a>
-                        <a class="dropdown-item my-2" href=""><i class="fa fa-search text-secondary mr-3"></i>sarees</a>
-                    </div>
+            <!-- Search -->
+            <div class="col col-sm-5 d-flex dropdown bg-white">
+                <input class="form-control search dropdown-toggle" type="search"
+                    placeholder="Search for products, brands and more" aria-label="Search" id="navbarDropdown"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-search mt-2 ml-sm-1 text-primary"></i>
+                <div class="dropdown-menu col-11 search-item" aria-labelledby="navbarDropdown">
+                    <h6 class="ml-4">Discover More</h6>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>mobiles</a>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>t-shirts</a>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>shoes</a>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>laptop</a>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>tv</a>
+                    <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>sarees</a>
                 </div>
             </div>
 
             <!-- Login -->
-            <div class="dropdown">
-                <button class="btn bg-white text-primary px-4 py-1 login" type="button" id="loginMenuButton"
+            <div class="col dropdown">
+                <button class="btn bg-white text-primary px-4 px-md-5 py-1 mt-1 login" type="button" id="loginMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Login
                 </button>
                 <div class="dropdown-menu login-list" aria-labelledby="loginMenuButton">
-                    <!-- <div class="d-flex signUp">
-                            <h6>New Customer</h6>
-                            <a href="#">Sign Up</a>
-                        </div> -->
+                    <div class="d-flex">
+                        <h6 class="text-sm ml-md-1">New Customer</h6>
+                        <a href="#" class="ml-md-1 text-lg">Sign Up</a>
+                    </div>
                     <div class="d-flex">
                         <i class="fa fa-user-circle text-primary mt-2 ml-1" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">My Profile</a>
@@ -95,7 +93,7 @@
             </div>
 
             <!-- More -->
-            <div class="dropdown">
+            <div class="col dropdown">
                 <a class="btn dropdown-toggle text-white ml-lg-2 ml-sm-0" href="#" role="button" id="moreMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
@@ -130,9 +128,9 @@
             </div>
 
             <!-- Cart -->
-            <div class="container d-flex">
-                <i class="fa fa-shopping-cart text-white mt-2 ml-2" aria-hidden="true"></i>
-                <a href="" class="btn text-white">Cart</a>
+            <div class="col d-flex">
+                    <i class="fa fa-shopping-cart text-white mt-2" aria-hidden="true"></i>
+                    <a href="" class="btn text-white">Cart</a>
             </div>
         </div>
     </div>
@@ -205,10 +203,11 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card text-center sales">
-                        <img class="card-img-top p-2 img-fluid w-100" alt="Saara Digital Print, Floral Print Semi Stitched Lehenga Choli"
+                        <img class="card-img-top p-2 img-fluid w-100"
+                            alt="Saara Digital Print, Floral Print Semi Stitched Lehenga Choli"
                             src="https://rukminim1.flixcart.com/image/150/150/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70"
                             srcset="https://rukminim1.flixcart.com/image/300/300/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70 1x">
                         <div class="card-body p-1" title="Min 60% Off">
@@ -218,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card text-center sales">
                         <img class="card-img-top p-2 img-fluid w-100" alt="Woodland Men Brown Sports Sandals"
@@ -246,8 +245,8 @@
             </div>
         </div>
         <div class="card ml-2 p-2">
-                <img class="card-img img-fluid w-100"
-                    src="https://rukminim1.flixcart.com/flap/600/358/image/633789f7def60050.jpg?q=70" alt="IKFS">
+            <img class="card-img img-fluid w-100"
+                src="https://rukminim1.flixcart.com/flap/600/358/image/633789f7def60050.jpg?q=70" alt="IKFS">
         </div>
     </div>
 
@@ -276,7 +275,9 @@
         <hr>
         <div class="row d-flex nowrap justify-content-center">
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100"  alt="Usha Marvella Electric Sewing Machine" src="https://rukminim1.flixcart.com/image/150/150/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Usha Marvella Electric Sewing Machine"
+                    src="https://rukminim1.flixcart.com/image/150/150/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/sewing-machine/f/c/y/usha-marvella-original-imaegyvtgv6k4rvk.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Shop Now!">
                     <h6 class="card-title">Sewing Machines</h6>
                     <a href="#" class="card-link">Shop Now!</a>
@@ -285,43 +286,53 @@
             </div>
 
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Inverters (Shop Now!)" src="https://rukminim1.flixcart.com/image/150/150/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Inverters (Shop Now!)"
+                    src="https://rukminim1.flixcart.com/image/150/150/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k5ihzm80/inverter/v/k/z/zelio-1100-12v-luminous-original-imafz6gnztg3p8fg.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Shop Now!">
                     <h6 class="card-title">Inverters</h6>
                     <a href="#" class="card-link">Shop Now!</a>
                     <p class="card-subtitle text-muted">Luminous, Microtek</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Power Packed TVs for You! (Starting at ₹8,499)" src="https://rukminim1.flixcart.com/image/150/150/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Power Packed TVs for You! (Starting at ₹8,499)"
+                    src="https://rukminim1.flixcart.com/image/150/150/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Starting at ₹8,499">
                     <h6 class="card-title">Power Packed TVs</h6>
                     <a href="#" class="card-link">Starting at ₹8,499</a>
                     <p class="card-subtitle text-muted">Captivating Display Quality</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Philips Vacuum Cleaners (Run Time: 15 min)" src="https://rukminim1.flixcart.com/image/150/150/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Philips Vacuum Cleaners (Run Time: 15 min)"
+                    src="https://rukminim1.flixcart.com/image/150/150/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Run Time: 15 min">
                     <h6 class="card-title">Philips Vacuum Cleaners</h6>
                     <a href="#" class="card-link">Run Time: 15 min</a>
                     <p class="card-subtitle text-muted">Maximum Sound Level: 82 dB</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100"  alt="Kaff Microwave Oven (Convection &amp; Grill)" src="https://rukminim1.flixcart.com/image/150/150/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Kaff Microwave Oven (Convection &amp; Grill)"
+                    src="https://rukminim1.flixcart.com/image/150/150/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Convection & Grill">
                     <h6 class="card-title">Kaff Microwave Oven</h6>
                     <a href="#" class="card-link">Convection & Grill</a>
                     <p class="card-subtitle text-muted">81 L & Touch Key Pad</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="The Best of TVs are here! (Just from ₹12999)" src="https://rukminim1.flixcart.com/image/150/150/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="The Best of TVs are here! (Just from ₹12999)"
+                    src="https://rukminim1.flixcart.com/image/150/150/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Just from ₹12999">
                     <h6 class="card-title">The Best of TVs are here!</h6>
                     <a href="#" class="card-link">Just from ₹12999</a>
@@ -345,7 +356,10 @@
         <hr>
         <div class="row d-flex nowrap justify-content-center">
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Swingzy Handmade Cotton Hanging Swing Cotton, Wooden Small Swing" src="https://rukminim1.flixcart.com/image/150/150/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="Swingzy Handmade Cotton Hanging Swing Cotton, Wooden Small Swing"
+                    src="https://rukminim1.flixcart.com/image/150/150/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kdyus280/hammock-swing/m/5/z/white-hammock-swing-hanging-chair-swingzy-original-imafuqwjpzmgrnnu.jpeg?q=70 1x">
                 <div class="card-body p-1" title="From ₹1,169">
                     <h6 class="card-title">Swings</h6>
                     <a href="#" class="card-link">From ₹1,169</a>
@@ -354,43 +368,55 @@
             </div>
 
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100"  alt="The Furniture Store XXXL Bean Bag Cover  (Without Beans)" src="https://rukminim1.flixcart.com/image/150/150/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="The Furniture Store XXXL Bean Bag Cover  (Without Beans)"
+                    src="https://rukminim1.flixcart.com/image/150/150/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Min 80% Off">
                     <h6 class="card-title">Bean Bag Covers</h6>
                     <a href="#" class="card-link">Min 80% Off</a>
                     <p class="card-subtitle text-muted">XL, XXL & More</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Flipkart Perfect Homes Julian Engineered Wood 4 Door Wardrobe" src="https://rukminim1.flixcart.com/image/150/150/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="Flipkart Perfect Homes Julian Engineered Wood 4 Door Wardrobe"
+                    src="https://rukminim1.flixcart.com/image/150/150/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jo8xg280/wardrobe-closet/n/h/9/particle-board-w4wal00ed2wmp-flipkart-perfect-homes-american-original-imaf9m4hh8mg5e79.jpeg?q=70 1x">
                 <div class="card-body p-1" title="From ₹5,999">
                     <h6 class="card-title">Wardrobes</h6>
                     <a href="#" class="card-link">From ₹5,999</a>
                     <p class="card-subtitle text-muted">By Flipkart Perfect Home & More</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Woodness Jenson Solid Wood Bunk Bed" src="https://rukminim1.flixcart.com/image/150/150/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Woodness Jenson Solid Wood Bunk Bed"
+                    src="https://rukminim1.flixcart.com/image/150/150/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jsm3vrk0/bunk-loft-bed/w/b/q/na-rubber-wood-27035-woodness-dark-brown-original-imafe47eukgzsjkr.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Upto 78% off">
                     <h6 class="card-title">Furniture Accessories</h6>
                     <a href="#" class="card-link">Upto 78% off</a>
                     <p class="card-subtitle text-muted">Bunk Beds, Benches ...</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="WDS Velvet 3 Seater Inflatable Sofa" src="https://rukminim1.flixcart.com/image/150/150/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="WDS Velvet 3 Seater Inflatable Sofa"
+                    src="https://rukminim1.flixcart.com/image/150/150/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Min 50% Off">
                     <h6 class="card-title">Inflatable Sofas</h6>
                     <a href="#" class="card-link">Min 50% Off</a>
                     <p class="card-subtitle text-muted">Furn Central & more</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Marusthalee Designer Temple Solid Wood Home Temple" src="https://rukminim1.flixcart.com/image/150/150/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Marusthalee Designer Temple Solid Wood Home Temple"
+                    src="https://rukminim1.flixcart.com/image/150/150/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jm6mjrk0/home-temple/k/g/g/designer-tample-marusthalee-original-imaf958ryaufedqj.jpeg?q=70 1x">
                 <div class="card-body p-1" title="From &#x20B9;699">
                     <h6 class="card-title">Home Temples</h6>
                     <a href="#" class="card-link">From &#x20B9;699</a>
@@ -414,7 +440,9 @@
         <hr>
         <div class="row d-flex nowrap justify-content-center">
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Best Brands (Shop Now)" src="https://rukminim1.flixcart.com/image/150/150/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Best Brands (Shop Now)"
+                    src="https://rukminim1.flixcart.com/image/150/150/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kg15ocw0/cases-covers/back-cover/3/y/n/spigen-acs00565-original-imafwcw8bz2tnzgp.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Shop Now!">
                     <h6 class="card-title">Best Brands</h6>
                     <a href="#" class="card-link">Shop Now!</a>
@@ -423,43 +451,54 @@
             </div>
 
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="JioFi JMR 541 Data Card" src="https://rukminim1.flixcart.com/image/150/150/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="JioFi JMR 541 Data Card"
+                    src="https://rukminim1.flixcart.com/image/150/150/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k6mibgw0/datacard/r/h/g/jiofi-jmr-541-original-imafpfhandhkptwc.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Upto 60% off">
                     <h6 class="card-title">Data Cards</h6>
                     <a href="#" class="card-link">Upto 60% off</a>
                     <p class="card-subtitle text-muted">JioFi, Huawei & more</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Logitech C310 HD Webcam" src="https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Logitech C310 HD Webcam"
+                    src="https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70 1x">
                 <div class="card-body p-1" title="From ₹490">
                     <h6 class="card-title">Webcams</h6>
                     <a href="#" class="card-link">From ₹490</a>
                     <p class="card-subtitle text-muted">Logitech, Quantum & more</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Gaming Headsets (Best Selling)" src="https://rukminim1.flixcart.com/image/150/150/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Gaming Headsets (Best Selling)"
+                    src="https://rukminim1.flixcart.com/image/150/150/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k2w6xe80/headphone/k/m/d/acer-predator-galea-311-phw910-np-hds11-00b-original-imafm58gaeg3hb7x.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Best Selling">
                     <h6 class="card-title">Gaming Headsets</h6>
                     <a href="#" class="card-link">Best Selling</a>
                     <p class="card-subtitle text-muted">Cosmic Byte, Acer, HyperX & more</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100"  alt="Best Selling Laptops (Upto 40% off)" src="https://rukminim1.flixcart.com/image/150/150/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100" alt="Best Selling Laptops (Upto 40% off)"
+                    src="https://rukminim1.flixcart.com/image/150/150/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kctf0cw0/computer/7/j/c/dell-original-imaftuvztweg8kf8.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Upto 40% Off">
                     <h6 class="card-title">Best Selling Laptops</h6>
                     <a href="#" class="card-link">Upto 40% Off</a>
                     <p class="card-subtitle text-muted">Asus, Acer, Dell & More</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="BeFunky Back Cover for Apple iPhone X, Apple iPhone XS" src="https://rukminim1.flixcart.com/image/150/150/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70 1x">
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="BeFunky Back Cover for Apple iPhone X, Apple iPhone XS"
+                    src="https://rukminim1.flixcart.com/image/150/150/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70"
+                    srcset="https://rukminim1.flixcart.com/image/300/300/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Just ₹159">
                     <h6 class="card-title">For Vivo</h6>
                     <a href="#" class="card-link">Just ₹159</a>
@@ -502,9 +541,10 @@
                     <p class="card-subtitle text-muted">Sports, Casuals Shoes ..</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Casio EX303 Edifice ( EFR-526L-7BVUDF ) Analog Watch  - For Men"
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="Casio EX303 Edifice ( EFR-526L-7BVUDF ) Analog Watch  - For Men"
                     src="https://rukminim1.flixcart.com/image/150/150/j8ndea80/watch/z/r/u/ex303-casio-original-imaeymgrv9atpprg.jpeg?q=70"
                     srcset="https://rukminim1.flixcart.com/image/300/300/j8ndea80/watch/z/r/u/ex303-casio-original-imaeymgrv9atpprg.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/j8ndea80/watch/z/r/u/ex303-casio-original-imaeymgrv9atpprg.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Upto 30% Off">
@@ -513,9 +553,10 @@
                     <p class="card-subtitle text-muted">Men &amp; Women Watches</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
-                <img class="card-img-top p-2 img-fluid w-100" alt="Saara Digital Print, Floral Print Semi Stitched Lehenga Choli"
+                <img class="card-img-top p-2 img-fluid w-100"
+                    alt="Saara Digital Print, Floral Print Semi Stitched Lehenga Choli"
                     src="https://rukminim1.flixcart.com/image/150/150/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70"
                     srcset="https://rukminim1.flixcart.com/image/300/300/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg?q=70 1x">
                 <div class="card-body p-1" title="Min 60% Off">
@@ -524,7 +565,7 @@
                     <p class="card-subtitle text-muted">Embeoidered</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
                 <img class="card-img-top p-2 img-fluid w-100" alt="Woodland Men Brown Sports Sandals"
                     src="https://rukminim1.flixcart.com/image/150/150/jvv9zm80/sandal/j/g/w/gd-2665117camel-40-woodland-camel-original-imafgztfhjdp6xmg.jpeg?q=70"
@@ -535,7 +576,7 @@
                     <p class="card-subtitle text-muted">Sandals and Floaters</p>
                 </div>
             </div>
-            
+
             <div class="card text-center sales">
                 <img class="card-img-top p-2 img-fluid w-100" alt="Puma Jaunt IDP Running Shoes For Men"
                     src="https://rukminim1.flixcart.com/image/150/150/k6s82vk0/shoe/9/q/9/373642-9-puma-peacoat-jaffa-orange-original-imafp64sswgfxt7f.jpeg?q=70"
@@ -910,7 +951,9 @@
 </html>
 
 <!-- DONE:
+Header
 information Section
 Footer
 Top Deals on Fashion slider
-3-Card Banner Section  -->
+3-Card Banner Section 
+ -->
