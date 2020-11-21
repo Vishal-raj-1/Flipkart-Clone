@@ -89,6 +89,12 @@ body{
     font-size: .9em;
 }
 
+.view-btn{
+    font-size: .68em;
+    padding: .4em 1em;
+    border-radius: 0;
+}
+
 .sales{
     cursor: pointer;
     height: 15em;
