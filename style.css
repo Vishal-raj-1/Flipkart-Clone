@@ -72,13 +72,6 @@ body{
     font-size: .8em;
 }
 
-/*******************************************         Navbar         ***********************************/
-/* .Navbar{
-    background-color: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
-    justify-content: center;
-} */
-
 /* Sales slider */
 .slider-heading h4{
     font-size: 1.5em;
@@ -90,8 +83,8 @@ body{
 }
 
 .view-btn{
-    font-size: .68em;
-    padding: .4em 1em;
+    font-size: .9em;
+    padding: .4em 1.5em;
     border-radius: 0;
 }
 
