@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: Roboto,Arial,sans-serif;
 }
-
+body{
+    background-color: #f1f3f6;
+}
 /* Header Section (Blue section) */
 .Header{
     display: flex;
@@ -78,6 +80,15 @@
 } */
 
 /* Sales slider */
+.slider-heading h4{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.slider-heading h6{
+    font-size: .9em;
+}
+
 .sales{
     cursor: pointer;
     height: 15em;
