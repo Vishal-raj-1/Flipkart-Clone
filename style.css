@@ -58,7 +58,7 @@ body{
     color: rgb(90, 90, 92);
 }
 
-/* login*/ 
+/* login */ 
 .login{
     display: flex;
     justify-content: center;
@@ -90,6 +90,22 @@ body{
     
 }
 .more-list{
+    font-size: .8em;
+}
+
+/* Navbar */
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    padding: .5em 0.2em;
+    color: #87878790;
+    background-color: #fff;
+}
+
+.Navbar a{
+    color: black;
     font-size: .8em;
 }
 
@@ -236,6 +252,11 @@ footer span{
     .login{
         padding-left: .2em;
     }
+    
+    .Navbar a{
+        color: black;
+        font-size: .75em;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -244,5 +265,17 @@ footer span{
         font-size: .8em;
         padding: .4em 1.1em;
         border-radius: 0;
+    }
+
+    .Navbar {
+        margin-bottom: 1em;
+        padding: .3em 0em;
+        color: #87878790;
+    
+    }
+    
+    .Navbar a{
+        color: black;
+        font-size: .75em;
     }
 }
