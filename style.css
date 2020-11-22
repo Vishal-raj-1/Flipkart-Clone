@@ -11,7 +11,6 @@ body{
 /* Header Section (Blue section) */
 .Header{
     display: flex;
-    justify-content: space-between;
 }
 
 /* Logo */
@@ -32,15 +31,17 @@ body{
 
 /* Search Bar */
 .search{
-    border-radius: 0%;
-    font-size: .8em;
-    border: 0;
-    outline: 0 none;
     width: calc(100% - 540px);
     min-width: 250px;
-    margin: 0 auto 0 12px;
+    margin-right: auto;
     align-items: center;
     color: rgb(157, 154, 154);
+}
+
+.search input{
+    font-size: .8em;
+    border: 0;
+    padding: 0;
 }
 
 .search-item {
@@ -59,15 +60,35 @@ body{
 
 /* login*/ 
 .login{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.login button{
     border-radius: 0;
-    border: none;
+    border: 0;
+    padding: 0.375rem 2.75rem;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 .login-list a{
     font-size: .8em;
 }
 
+#signUp{
+    font-size: 1em;
+}
+
 /* More Button */
+.more{
+    width: 100%;
+    padding: 0;
+    
+}
 .more-list{
     font-size: .8em;
 }
@@ -83,6 +104,11 @@ body{
 }
 
 .view-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-btn button{
     font-size: .9em;
     padding: .4em 1.5em;
     border-radius: 0;
@@ -95,6 +121,7 @@ body{
     margin: .1em .2em;
     width: 13em;
     box-sizing: border-box;
+    border: 0;
 }
 
 .sales img{
@@ -178,4 +205,44 @@ footer i{
 
 footer span{
     font-size: .8em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 576px){
+
+    .slider-heading h4{
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+
+    view-btn button{ 
+        font-size: .8em;
+        padding: 0;
+        border-radius: 0;
+    }
+    
+    .login, .more{
+        padding: .2em .4em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .login{
+        padding-left: .2em;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .view-btn button{ 
+        font-size: .8em;
+        padding: .4em 1.1em;
+        border-radius: 0;
+    }
 }
