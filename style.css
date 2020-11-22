@@ -8,10 +8,6 @@
 body{
     background-color: #f1f3f6;
 }
-/* Header Section (Blue section) */
-.Header{
-    display: flex;
-}
 
 /* Logo */
 .logo{
@@ -102,6 +98,7 @@ body{
     padding: .5em 0.2em;
     color: #87878790;
     background-color: #fff;
+    padding-top: 4em;
 }
 
 .Navbar a{
@@ -142,6 +139,11 @@ body{
 
 .sales img{
     height: 60%;
+    transform: scale(.97);
+}
+
+.sales img:hover{
+    transform: scale(1);
 }
 
 .sales a{
