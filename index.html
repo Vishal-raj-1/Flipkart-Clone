@@ -19,8 +19,7 @@
     <div class="container-fluid bg-primary">
         <div class="row py-2 d-flex Header">
             <!-- Logo -->
-            <div class="col offset-md-1">
-                <div class="logo">
+            <div class="col logo offset-lg-1">
                     <a href="#">
                         <img width="75" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
                             alt="Flipkart" title="Flipkart">
@@ -28,16 +27,15 @@
                     <a href="#">Explore <span>Plus</span>
                         <img width="10" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png">
                     </a>
-                </div>
             </div>
 
             <!-- Search -->
-            <div class="col col-md-5 d-flex dropdown bg-white">
-                <input class="form-control search dropdown-toggle" type="search"
+            <div class="col col-md-4  search d-flex dropdown bg-white">
+                <input class="form-control dropdown-toggle" type="search"
                     placeholder="Search for products, brands and more" aria-label="Search" id="navbarDropdown"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-search mt-2 ml-sm-1 text-primary"></i>
-                <div class="dropdown-menu col-11 search-item" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu col-12 search-item" aria-labelledby="navbarDropdown">
                     <h6 class="ml-4">Discover More</h6>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item py-2" href=""><i class="fa fa-search text-secondary mr-3"></i>mobiles</a>
@@ -50,50 +48,51 @@
             </div>
 
             <!-- Login -->
-            <div class="col dropdown">
-                <button class="btn bg-white text-primary px-4 px-md-5 py-1 mt-1 login" type="button"
+            <div class="col dropdown login">
+                <button class="btn bg-white text-primary" type="button"
                     id="loginMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Login
                 </button>
-                <div class="dropdown-menu login-list" aria-labelledby="loginMenuButton">
+                <div class="dropdown-menu login-list col-12 aria-labelledby="loginMenuButton">
                     <div class="d-flex">
-                        <h6 class="text-sm ml-md-1">New Customer</h6>
-                        <a href="#" class="ml-md-1 text-lg">Sign Up</a>
+                        <h6 class="ml-md-1">New Customer?</h6>
+                        <a href="#" class="ml-auto mr-2" id="signUp">Sign Up</a>
                     </div>
+                    <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-user-circle text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-user-circle text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">My Profile</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-plus text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-plus text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">Flipkart Plus Zone</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-book text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-book text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">Orders</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-heart text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-heart text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">Wishlist</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-chess-bishop text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-chess-bishop text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">Rewards</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-gift text-primary mt-2 ml-1" aria-hidden="true"></i>
+                        <i class="fa fa-gift text-primary mt-2 ml-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="">Gift Cards</a>
                     </div>
                 </div>
             </div>
 
             <!-- More -->
-            <div class="col dropdown">
+            <div class="col dropdown more">
                 <a class="btn dropdown-toggle text-white ml-lg-2 ml-sm-0" href="#" role="button" id="moreMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
@@ -101,34 +100,34 @@
 
                 <div class="dropdown-menu more-list" aria-labelledby="moreMenuLink">
                     <div class="d-flex">
-                        <i class="fa fa-bell text-primary ml-2 mt-2" aria-hidden="true"></i>
+                        <i class="fa fa-bell text-primary ml-md-3 mt-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="#">Notification Preferences</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-archive text-primary ml-2 mt-2" aria-hidden="true"></i>
+                        <i class="fa fa-archive text-primary ml-md-3 mt-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="#">Sell On Flipkart</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-question-circle text-primary ml-2 mt-2" aria-hidden="true"></i>
+                        <i class="fa fa-question-circle text-primary ml-md-3 mt-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="#">24x7 Customer Care</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-chart-line text-primary ml-2 mt-2" aria-hidden="true"></i>
+                        <i class="fa fa-chart-line text-primary ml-md-3 mt-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="#">Advertise</a>
                     </div>
                     <div class="dropdown-divider"></div>
                     <div class="d-flex">
-                        <i class="fa fa-download text-primary ml-2 mt-2" aria-hidden="true"></i>
+                        <i class="fa fa-download text-primary ml-md-3 mt-2" aria-hidden="true"></i>
                         <a class="dropdown-item" href="#">Download App</a>
                     </div>
                 </div>
             </div>
 
             <!-- Cart -->
-            <div class="col d-flex">
+            <div class="col col-md-1 d-flex justify-content-center">
                 <i class="fa fa-shopping-cart text-white mt-2" aria-hidden="true"></i>
                 <a href="" class="btn text-white">Cart</a>
             </div>
@@ -185,8 +184,10 @@
                 <div class="col slider-heading">
                     <h4>Top Deals on Fashion</h4>
                 </div>
-                <div class="col col-md-2">
-                    <button class="btn btn-primary view-btn">View All</button>
+                <div class="col col-sm-4 view-btn">
+                    <div>
+                        <button class="btn btn-primary">View All</button>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -201,7 +202,7 @@
                         <p class="card-subtitle text-muted">Luminous, Microtek</p>
                     </div>
                 </div>
-    
+
                 <div class="card text-center sales">
                     <img class="card-img-top p-2 img-fluid w-100" alt="Power Packed TVs for You! (Starting at ₹8,499)"
                         src="https://rukminim1.flixcart.com/image/150/150/keuagsw0/television/y/e/y/panasonic-th-50hx450dx-th-50hx450dx-original-imafvf3sbzgzygu2.jpeg?q=70"
@@ -212,7 +213,7 @@
                         <p class="card-subtitle text-muted">Captivating Display Quality</p>
                     </div>
                 </div>
-    
+
                 <div class="card text-center sales">
                     <img class="card-img-top p-2 img-fluid w-100" alt="Philips Vacuum Cleaners (Run Time: 15 min)"
                         src="https://rukminim1.flixcart.com/image/150/150/kg40k280/vacuum-cleaner/n/f/9/philips-fc9352-01-innovation-and-new-original-imafwffhen7zwrzu.jpeg?q=70"
@@ -223,7 +224,7 @@
                         <p class="card-subtitle text-muted">Maximum Sound Level: 82 dB</p>
                     </div>
                 </div>
-    
+
                 <div class="card text-center sales">
                     <img class="card-img-top p-2 img-fluid w-100" alt="Kaff Microwave Oven (Convection &amp; Grill)"
                         src="https://rukminim1.flixcart.com/image/150/150/kdt50nk0/microwave-new/u/f/m/ov-81-gikf-kaff-original-imafumd6khqsa9hv.jpeg?q=70"
@@ -234,7 +235,7 @@
                         <p class="card-subtitle text-muted">81 L & Touch Key Pad</p>
                     </div>
                 </div>
-    
+
                 <div class="card text-center sales">
                     <img class="card-img-top p-2 img-fluid w-100" alt="The Best of TVs are here! (Just from ₹12999)"
                         src="https://rukminim1.flixcart.com/image/150/150/kc54ivk0/television/r/q/g/mi-l43m4-4ain-original-imaftc5fy6bfmhyb.jpeg?q=70"
@@ -258,19 +259,19 @@
     <div class="container-fluid bg-white">
         <div class="row row-cols-3">
             <div class="col pl-0 pr-1">
-                <div class="card">
-                    <img src="./Img/banner-2.jpg" class="card-img-top" alt="...">
-                </div>
+                <img class="img-fluid" alt="Furniture Bestsellers"
+                    srcset="https://rukminim1.flixcart.com/flap/960/960/image/084789479074d2b2.jpg?q=50 2x, https://rukminim1.flixcart.com/flap/480/480/image/084789479074d2b2.jpg?q=50 1x"
+                    src="https://rukminim1.flixcart.com/flap/480/480/image/084789479074d2b2.jpg?q=50">
             </div>
             <div class="col pl-0 pr-1">
-                <div class="card">
-                    <img src="./Img/banner-3.jpg" class="card-img-top" alt="...">
-                </div>
+                <img class="img-fluid" alt="cv"
+                    srcset="https://rukminim1.flixcart.com/flap/960/960/image/280f4c9921a571d5.png?q=50 2x, https://rukminim1.flixcart.com/flap/480/480/image/280f4c9921a571d5.png?q=50 1x"
+                    src="https://rukminim1.flixcart.com/flap/480/480/image/280f4c9921a571d5.png?q=50">
             </div>
             <div class="col px-0">
-                <div class="card">
-                    <img src="./Img/banner-1.jpg" class="card-img-top" alt="...">
-                </div>
+                <img class="img-fluid" alt="Wash5thFeb"
+                    srcset="https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50 2x, https://rukminim1.flixcart.com/flap/480/480/image/1ce0c4c1fb501b45.jpg?q=50 1x"
+                    src="https://rukminim1.flixcart.com/flap/480/480/image/1ce0c4c1fb501b45.jpg?q=50">
             </div>
         </div>
     </div>
@@ -281,8 +282,10 @@
             <div class="col">
                 <h4>Ease your Daily Chores</h4>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -362,8 +365,10 @@
                 <h4>Furniture Bestsellers</h4>
                 <h6 class="text-muted">Furniture Bestsellers</h6>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn py-3">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -446,8 +451,10 @@
                 <h4>Best of Electronics</h4>
                 <h6 class="text-muted">Devices and Accessories</h6>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn py-3">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -528,8 +535,10 @@
                 <h4>Best Battery Phones</h4>
                 <h6 class="text-muted">More than 4000mAh</h6>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn py-3">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -608,8 +617,10 @@
             <div class="col slider-heading">
                 <h4>Top Deals on Fashion</h4>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -690,8 +701,10 @@
             <div class="col slider-heading">
                 <h4>Top Picks On Men's Clothing</h4>
             </div>
-            <div class="col col-md-2">
-                <button class="btn btn-primary view-btn">View All</button>
+            <div class="col col-sm-4 view-btn">
+                <div>
+                    <button class="btn btn-primary">View All</button>
+                </div>
             </div>
         </div>
         <hr>
