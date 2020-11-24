@@ -175,6 +175,11 @@ body{
 /* Card */
 .cur{
     cursor: pointer;
+    transform: scale(.99);
+}
+
+.cur:hover{
+    transform: scale(1);
 }
 
 /* Information */
