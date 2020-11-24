@@ -22,7 +22,7 @@ body{
 }
 
 .logo span{
-    color: yellow;
+    color: #ffe500;
 }
 
 /* Search Bar */
@@ -94,16 +94,24 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 1em;
-    padding: .5em 0.2em;
     color: #87878790;
     background-color: #fff;
-    padding-top: 4em;
+    margin-bottom: 1em;
 }
 
 .Navbar a{
     color: black;
-    font-size: .8em;
+    font-size: .85em;
+    text-decoration: none;
+}
+
+.Nav{
+    cursor: pointer;
+    padding: .5em 0.1em;
+}
+ 
+.Nav:hover, .Nav:hover a{
+    color: #007bff;
 }
 
 /* Sales slider */
@@ -194,32 +202,31 @@ body{
 footer{
     background-color: #172337;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top: 3%;
 }
 
 .Footer h6{
     color: #878787;
+    font-size: .8em;
 }
 
 .Footer > div{
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    font-size: .8em;
+    font-size: .75em;
+    font-weight: 100;
 }
 
 .Footer a{
     color: white;
+    line-height: 1.3rem;
 }
 
 .Footer p{
     margin: 0;
-}
-
-.Vertical{
-    height: 10em;
-    border-left: 1px solid #878799;
+    font-size: .96em;
+    line-height: 1.2rem;
 }
 
 footer i{
@@ -227,7 +234,8 @@ footer i{
 }
 
 footer span{
-    font-size: .8em;
+    font-size: .75em;
+    cursor: pointer;
 }
 
 /* Media Queries */
@@ -246,6 +254,10 @@ footer span{
     
     .login, .more{
         padding: .2em .4em;
+    }
+
+    .sales img:hover{
+        transform: scale(1.1);
     }
 }
 
